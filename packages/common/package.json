@@ -6,7 +6,6 @@
     "./user-type": "./src/user-type.js"
   },
   "dependencies": {
-    "@repo/common": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
