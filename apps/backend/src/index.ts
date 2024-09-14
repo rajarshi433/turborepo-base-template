@@ -1,13 +1,14 @@
-import { name, new_type, VAlUE } from "@repo/common/user-type";
+import { signupType } from "@repo/common/signup";
 
 import express from "express";
-
 const app = express();
 
+const signup: signupType = "Click here to sign up";
+
 app.get("/", (req, res) => {
-  console.log("Hello from backend")
+  console.log("Hello from backend");
   res.json({
-    message: `Hello ${VAlUE} and  I am from ${name} and this a ${new_type}`,
+    message: `Hello, ${signup}`,
   });
 });
 

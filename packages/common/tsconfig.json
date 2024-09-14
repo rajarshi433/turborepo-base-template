@@ -1,7 +1,11 @@
 {
-    "extends": "@repo/typescript-config/base.json",
-    "compilerOptions": {
-        "rootDir": "./src",
-        "outDir": "./dist"
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+
+    "baseUrl": ".", // This allows relative imports to start from the root
+    "paths": {
+      "@repo/common/*": ["packages/common/src/*"] // Path alias for your UI package
     }
+  }
 }

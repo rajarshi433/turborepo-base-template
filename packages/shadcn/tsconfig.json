@@ -4,9 +4,9 @@
     "outDir": "dist",
     "baseUrl": ".", // This allows relative imports to start from the root
     "paths": {
-      "@repo/ui/*": ["packages/ui/src/*"]
+      "@/*": ["./*"]
     }
   },
-  "include": ["src", "postcss.config.js", "tailwind.config.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["."],
+  "exclude": ["node_modules"]
 }

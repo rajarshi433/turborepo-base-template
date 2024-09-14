@@ -1,15 +1,13 @@
 {
-  "name": "@repo/common",
+  "name": "@repo/tailwind-config",
   "version": "1.0.0",
-  "private": true,
+  "main": "index.ts",
   "exports": {
-    "./signup": "./src/signup.d.ts",
-    "./signin": "./src/signin.d.ts"
+    "./sharedTailwindConfig": "./tailwind.config.ts"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": ""
